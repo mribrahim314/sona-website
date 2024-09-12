@@ -58,7 +58,7 @@
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
-.top-nav .tn-right .language-option {
+.top-nav .tn-right .language {
 	display: inline-block;
 	margin-left: 30px;
 	cursor: pointer;
@@ -66,13 +66,13 @@
 	position: relative;
 }
 
-.top-nav .tn-right .language-option img {
+.top-nav .tn-right .language img {
 	height: 26px;
 	width: 26px;
 	border-radius: 50%;
 	margin-right: 10px;
 }
-.top-nav .tn-right .language-option span {
+.top-nav .tn-right .language span {
 	font-size: 16px;
 	color: #19191a;
 	text-transform: uppercase;

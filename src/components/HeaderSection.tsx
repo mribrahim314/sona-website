@@ -28,29 +28,29 @@ const HeaderSection: React.FC = () => {
           <i className="icon_search"></i>
         </div>
         <div className="header-configure-area">
-          <div className="language-option">
+          <div className="language">
             <img src="/img/flag.jpg" alt="" />
             <span>
               EN <i className="fa fa-angle-down"></i>
             </span>
           </div>
-          <Link to="/booking" className="bk-btn">
+          <Link to="./booking" className="bk-btn">
             Booking Now
           </Link>
         </div>
         <nav className="mainmenu mobile-menu">
           <ul>
             <li className="active">
-              <Link to="/home">Home</Link>
+              <Link to="./home">Home</Link>
             </li>
             <li>
-              <Link to="/rooms">Rooms</Link>
+              <Link to="./rooms">Rooms</Link>
             </li>
             <li>
-              <Link to="/about-us">About Us</Link>
+              <Link to="./about-us">About Us</Link>
             </li>
             <li>
-              <Link to="/pages">Pages</Link>
+              <Link to="./pages">Pages</Link>
               <ul className="dropdown">
                 <li>
                   <Link to="/room-details">Room Details</Link>
@@ -132,21 +132,12 @@ const HeaderSection: React.FC = () => {
                   <Link to="/booking" className="bk-btn">
                     Booking Now
                   </Link>
-                  <div className="language-option">
+                  <div className="language">
                     <img src="/img/flag.jpg" alt="" />
                     <span>
                       EN <i className="fa fa-angle-down"></i>
                     </span>
-                    <div className="flag-dropdown">
-                      <ul>
-                        <li>
-                          <a href="#">Zi</a>
-                        </li>
-                        <li>
-                          <a href="#">Fr</a>
-                        </li>
-                      </ul>
-                    </div>
+                    
                   </div>
                 </div>
               </div>

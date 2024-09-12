@@ -1,0 +1,38 @@
+.blog-details-hero {
+	height: 530px;
+	padding-top: 165px;
+}
+.bd-hero-text {
+	text-align: center;
+}
+.bd-hero-text span {
+	font-size: 12px;
+	color: #ffffff;
+	background: #dfa974;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 4px 16px;
+	border-radius: 2px;
+}
+.bd-hero-text h2 {
+	font-size: 44px;
+	color: #ffffff;
+	line-height: 54px;
+	margin-top: 30px;
+	margin-bottom: 12px;
+}
+.bd-hero-text ul li {
+	list-style: none;
+	font-size: 14px;
+	color: #dfa974;
+	margin-right: 35px;
+	display: inline-block;
+}
+.bd-hero-text ul li:last-child {
+	margin-right: 0;
+}
+.bd-hero-text ul li.b-time {
+	text-transform: uppercase;
+}

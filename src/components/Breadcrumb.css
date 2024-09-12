@@ -1,0 +1,35 @@
+.breadcrumb-section {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  
+  .breadcrumb-text {
+    text-align: center;
+  }
+  
+  .breadcrumb-text h2 {
+    font-size: 44px;
+    color: #19191a;
+    margin-bottom: 12px;
+  }
+  
+  .breadcrumb-text .bt-option a {
+    display: inline-block;
+    font-size: 18px;
+    color: #19191a;
+    margin-right: 2px;
+    position: relative;
+    font-weight: 500;
+  }
+  
+  .breadcrumb-text .bt-option a i {
+    margin-right: 8px;
+    color: #aaaab3;
+  }
+  
+  .breadcrumb-text .bt-option span {
+    display: inline-block;
+    font-size: 18px;
+    color: #aaaab3;
+  }
+  

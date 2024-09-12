@@ -29,7 +29,7 @@ const HeaderSection: React.FC = () => {
         </div>
         <div className="header-configure-area">
           <div className="language">
-            <img src="/img/flag.jpg" alt="" />
+            <img src="/sona-website/img/flag.jpg" alt="" />
             <span>
               EN <i className="fa fa-angle-down"></i>
             </span>
@@ -133,7 +133,7 @@ const HeaderSection: React.FC = () => {
                     Booking Now
                   </Link>
                   <div className="language">
-                    <img src="/img/flag.jpg" alt="" />
+                    <img src="/sona-website/img/flag.jpg" alt="" />
                     <span>
                       EN <i className="fa fa-angle-down"></i>
                     </span>
@@ -150,7 +150,7 @@ const HeaderSection: React.FC = () => {
               <div className="col-lg-2">
                 <div className="logo">
                   <Link to="/sona-website/">
-                    <img src="/img/logo.png" alt="" />
+                    <img src="/sona-website/img/logo.png" alt="" />
                   </Link>
                 </div>
               </div>

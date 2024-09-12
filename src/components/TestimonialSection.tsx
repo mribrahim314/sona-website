@@ -8,12 +8,12 @@ const TestimonialSection = () => {
     {
       text: "After a construction project took longer than expected, my husband, my daughter and I needed a place to stay for a few nights. As a Chicago resident, we know a lot about our city, neighborhood and the types of housing options available and absolutely love our vacation at Sona Hotel.",
       author: "Alexander Vasquez",
-      image: "/img/testimonial-logo.png" 
+      image: "/sona-website/img/testimonial-logo.png" 
     },
     {
       text: "After a construction project took longer than expected, my husband, my daughter and I needed a place to stay for a few nights. As a Chicago resident, we know a lot about our city, neighborhood and the types of housing options available and absolutely love our vacation at Sona Hotel.",
       author: "Alexander Vasquez",
-      image: "/img/testimonial-logo.png" 
+      image: "/sona-website/img/testimonial-logo.png" 
     }
   ];
 

@@ -1,7 +1,7 @@
 
-import { Col, Row } from 'react-bootstrap'; // If using React Bootstrap
-import { FaClock } from 'react-icons/fa'; // Example of using React Icons
-import './BlogSection.css'; // Your custom CSS or use styled-components
+import { Col, Row } from 'react-bootstrap'; 
+import { FaClock } from 'react-icons/fa';
+import './BlogSection.css';
 
 const blogItems = [
   {

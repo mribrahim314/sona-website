@@ -27,10 +27,10 @@ export default function AboutUsSection() {
             <div className="about-pic">
               <div className="row">
                 <div className="col-sm-6">
-                  <img src="/img/about/about-1.jpg" alt="About Us 1" />
+                  <img src="/sona-website/img/about/about-1.jpg" alt="About Us 1" />
                 </div>
                 <div className="col-sm-6">
-                  <img src="/img/about/about-2.jpg" alt="About Us 2" />
+                  <img src="/sona-website/img/about/about-2.jpg" alt="About Us 2" />
                 </div>
               </div>
             </div>

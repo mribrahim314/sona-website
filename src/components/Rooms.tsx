@@ -1,11 +1,6 @@
 
 import './Rooms.css';
-import room1 from '/img/room/room-1.jpg';
-import room2 from '/img/room/room-2.jpg';
-import room3 from '/img/room/room-3.jpg';
-import room4 from '/img/room/room-4.jpg';
-import room5 from '/img/room/room-5.jpg';
-import room6 from '/img/room/room-6.jpg';
+
 
 interface Room {
     img: string;
@@ -18,12 +13,12 @@ interface Room {
   }
 
 const roomsData:Room[] = [
-  { img: room1, title: 'Premium King Room', price: '159$', size: '30 ft', capacity: 'Max person 3', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
-  { img: room2, title: 'Deluxe Room', price: '159$', size: '30 ft', capacity: 'Max person 5', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
-  { img: room3, title: 'Double Room', price: '159$', size: '30 ft', capacity: 'Max person 2', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
-  { img: room4, title: 'Luxury Room', price: '159$', size: '30 ft', capacity: 'Max person 1', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
-  { img: room5, title: 'Room With View', price: '159$', size: '30 ft', capacity: 'Max person 1', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
-  { img: room6, title: 'Small View', price: '159$', size: '30 ft', capacity: 'Max person 2', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
+  { img: '/sona-website/img/room/room-1.jpg', title: 'Premium King Room', price: '159$', size: '30 ft', capacity: 'Max person 3', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
+  { img: '/sona-website/img/room/room-2.jpg', title: 'Deluxe Room', price: '159$', size: '30 ft', capacity: 'Max person 5', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
+  { img: '/sona-website/img/room/room-3.jpg', title: 'Double Room', price: '159$', size: '30 ft', capacity: 'Max person 2', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
+  { img: '/sona-website/img/room/room-4.jpg', title: 'Luxury Room', price: '159$', size: '30 ft', capacity: 'Max person 1', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
+  { img: '/sona-website/img/room/room-5.jpg', title: 'Room With View', price: '159$', size: '30 ft', capacity: 'Max person 1', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
+  { img: '/sona-website/img/room/room-6.jpg', title: 'Small View', price: '159$', size: '30 ft', capacity: 'Max person 2', bed: 'King Beds', services: 'Wifi, Television, Bathroom,...' },
 ];
 
 

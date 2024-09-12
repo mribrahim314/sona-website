@@ -4,7 +4,7 @@ const BlogDetailsHero = () => {
   return (
     <section
       className="blog-details-hero set-bg"
-      style={{ backgroundImage: `url(/img/blog/blog-details/blog-details-hero.jpg)` }} 
+      style={{ backgroundImage: `url(/sona-website/img/blog/blog-details/blog-details-hero.jpg)` }} 
     >
       <div className="container">
         <div className="row">

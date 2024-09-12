@@ -1,8 +1,6 @@
 
 import './AboutUsPageSection.css'; 
-import aboutImage1 from '/img/about/about-p1.jpg';
-import aboutImage2 from '/img/about/about-p2.jpg';
-import aboutImage3 from '/img/about/about-p3.jpg';
+
 
 const AboutUs = () => {
   return (
@@ -34,21 +32,21 @@ const AboutUs = () => {
         <div className="about-page-services">
           <div className="row">
             <div className="col-md-4">
-              <div className="ap-service-item" style={{ backgroundImage: `url(${aboutImage1})`}}>
+              <div className="ap-service-item" style={{ backgroundImage: `url('/sona-website/img/about/about-p1.jpg')`}}>
                 <div className="api-text">
                   <h3>Restaurants Services</h3>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="ap-service-item" style={{ backgroundImage: `url(${aboutImage2})` }}>
+              <div className="ap-service-item" style={{ backgroundImage: `url('/sona-website/img/about/about-p2.jpg')` }}>
                 <div className="api-text">
                   <h3>Travel & Camping</h3>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="ap-service-item" style={{ backgroundImage: `url(${aboutImage3})` }}>
+              <div className="ap-service-item" style={{ backgroundImage: `url('/sona-website/img/about/about-p3.jpg')` }}>
                 <div className="api-text">
                   <h3>Event & Party</h3>
                 </div>

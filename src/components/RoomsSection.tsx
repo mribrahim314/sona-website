@@ -7,7 +7,7 @@ const RoomSection = () => {
     {
       title: 'Double Room',
       price: 199,
-      image: '/img/room/room-b1.jpg',
+      image: '/sona-website/img/room/room-b1.jpg',
       size: '30 ft',
       capacity: 'Max person 5',
       bed: 'King Beds',
@@ -16,7 +16,7 @@ const RoomSection = () => {
     {
       title: 'Premium King Room',
       price: 159,
-      image: '/img/room/room-b2.jpg',
+      image: '/sona-website/img/room/room-b2.jpg',
       size: '30 ft',
       capacity: 'Max person 5',
       bed: 'King Beds',
@@ -25,7 +25,7 @@ const RoomSection = () => {
     {
       title: 'Deluxe Room',
       price: 198,
-      image: '/img/room/room-b3.jpg',
+      image: '/sona-website/img/room/room-b3.jpg',
       size: '30 ft',
       capacity: 'Max person 5',
       bed: 'King Beds',
@@ -34,7 +34,7 @@ const RoomSection = () => {
     {
       title: 'Family Room',
       price: 299,
-      image: '/img/room/room-b4.jpg',
+      image: '/sona-website/img/room/room-b4.jpg',
       size: '30 ft',
       capacity: 'Max person 5',
       bed: 'King Beds',

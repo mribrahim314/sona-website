@@ -1,5 +1,5 @@
 import React from 'react';
-import './Breadcrumb.css'; // Make sure this file includes the updated CSS below
+import './Breadcrumb.css';
 
 interface BreadcrumbLink {
   name: string;

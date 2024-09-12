@@ -104,9 +104,9 @@ const [checkOutDate, setCheckOutDate] = useState<Date | null>(null);
           </div>
         </div>
         <OwlCarousel className="hero-slider" {...options}>
-    <div className="hs-item" style={{ backgroundImage: 'url(/img/hero/hero-1.jpg)' }}></div>
-    <div className="hs-item" style={{ backgroundImage: 'url(/img/hero/hero-2.jpg)' }}></div>
-    <div className="hs-item" style={{ backgroundImage: 'url(/img/hero/hero-3.jpg)' }}></div>
+    <div className="hs-item" style={{ backgroundImage: 'url(/sona-website/img/hero/hero-1.jpg)' }}></div>
+    <div className="hs-item" style={{ backgroundImage: 'url(/sona-website/img/hero/hero-2.jpg)' }}></div>
+    <div className="hs-item" style={{ backgroundImage: 'url(/sona-website/img/hero/hero-3.jpg)' }}></div>
   </OwlCarousel>
       </section>
     </>

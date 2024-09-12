@@ -1,11 +1,11 @@
 
 import './VideoSection.css';
-import videoBg from '/img/video-bg.jpg'; 
-import playButton from '/img/play.png';  
+
+ 
 
 const VideoSection = () => {
   return (
-    <section className="video-section" style={{ backgroundImage: `url(${videoBg})` }}>
+    <section className="video-section" style={{ backgroundImage: `url('/sona-website/img/video-bg.jpg')` }}>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -13,7 +13,7 @@ const VideoSection = () => {
               <h2>Discover Our Hotel & Services.</h2>
               <p>It’s Hurricane Season But We Are Visiting Hilton Head Island</p>
 
-                <img src={playButton} alt="Play button" className='play-btn' />
+                <img src={"/sona-website/img/play.png"} alt="Play button" className='play-btn' />
  
             </div>
           </div>

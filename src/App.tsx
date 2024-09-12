@@ -16,13 +16,13 @@ function App() {
     <Router>
       <HeaderSection />
       <Routes>
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/rooms" element={<RoomsPage />} />
-        <Route path="/about-us" element={<AboutUsPage />} />
-        <Route path="/news" element={<NewsPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/room-details" element={<RoomsDetailsPage />} />
-        <Route path="/blog-details" element={<BlogDetailsPage />} />
+        <Route path="/sona-website/" element={<HomePage />} />
+        <Route path="/sona-website/rooms" element={<RoomsPage />} />
+        <Route path="/sona-website/about-us" element={<AboutUsPage />} />
+        <Route path="/sona-website/news" element={<NewsPage />} />
+        <Route path="/sona-website/contact" element={<ContactPage />} />
+        <Route path="/sona-website/room-details" element={<RoomsDetailsPage />} />
+        <Route path="/sona-website/blog-details" element={<BlogDetailsPage />} />
         
       </Routes>
     </Router>

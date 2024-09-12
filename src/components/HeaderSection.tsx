@@ -34,43 +34,43 @@ const HeaderSection: React.FC = () => {
               EN <i className="fa fa-angle-down"></i>
             </span>
           </div>
-          <Link to="./booking" className="bk-btn">
+          <Link to="/sona-website/booking" className="bk-btn">
             Booking Now
           </Link>
         </div>
         <nav className="mainmenu mobile-menu">
           <ul>
             <li className="active">
-              <Link to="./home">Home</Link>
+              <Link to="/sona-website/">Home</Link>
             </li>
             <li>
-              <Link to="./rooms">Rooms</Link>
+              <Link to="/sona-website/rooms">Rooms</Link>
             </li>
             <li>
-              <Link to="./about-us">About Us</Link>
+              <Link to="/sona-website/about-us">About Us</Link>
             </li>
             <li>
-              <Link to="./pages">Pages</Link>
+              <Link to="/sona-website/pages">Pages</Link>
               <ul className="dropdown">
                 <li>
-                  <Link to="/room-details">Room Details</Link>
+                  <Link to="/sona-website/room-details">Room Details</Link>
                 </li>
                 <li>
-                  <Link to="/blog-room">Blog Room</Link>
+                  <Link to="/sona-website/blog-room">Blog Room</Link>
                 </li>
                 <li>
-                  <Link to="/family-room">Family Room</Link>
+                  <Link to="/sona-website/family-room">Family Room</Link>
                 </li>
                 <li>
-                  <Link to="/premium-room">Premium Room</Link>
+                  <Link to="/sona-website/premium-room">Premium Room</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="/blog">News</Link>
+              <Link to="/sona-website/news">News</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/sona-website/contact">Contact</Link>
             </li>
           </ul>
         </nav>
@@ -129,7 +129,7 @@ const HeaderSection: React.FC = () => {
                       <i className="fa fa-instagram"></i>
                     </a>
                   </div>
-                  <Link to="/booking" className="bk-btn">
+                  <Link to="/sona-website/booking" className="bk-btn">
                     Booking Now
                   </Link>
                   <div className="language">
@@ -149,7 +149,7 @@ const HeaderSection: React.FC = () => {
             <div className="row">
               <div className="col-lg-2">
                 <div className="logo">
-                  <Link to="/home">
+                  <Link to="/sona-website/">
                     <img src="/img/logo.png" alt="" />
                   </Link>
                 </div>
@@ -159,36 +159,36 @@ const HeaderSection: React.FC = () => {
                   <nav className="mainmenu">
                     <ul>
                       <li className="active">
-                        <Link to="/home">Home</Link>
+                        <Link to="/sona-website/">Home</Link>
                       </li>
                       <li>
-                        <Link to="/rooms">Rooms</Link>
+                        <Link to="/sona-website/rooms">Rooms</Link>
                       </li>
                       <li>
-                        <Link to="/about-us">About Us</Link>
+                        <Link to="/sona-website/about-us">About Us</Link>
                       </li>
                       <li>
-                        <Link to="/pages">Pages</Link>
+                        <Link to="/sona-website/pages">Pages</Link>
                         <ul className="dropdown">
                           <li>
-                            <Link to="/room-details">Room Details</Link>
+                            <Link to="/sona-website/room-details">Room Details</Link>
                           </li>
                           <li>
-                            <Link to="/blog-details">Blog Details</Link>
+                            <Link to="/sona-website/blog-details">Blog Details</Link>
                           </li>
                           <li>
-                            <Link to="/family-room">Family Room</Link>
+                            <Link to="/sona-website/family-room">Family Room</Link>
                           </li>
                           <li>
-                            <Link to="/premium-room">Premium Room</Link>
+                            <Link to="/sona-website/premium-room">Premium Room</Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <Link to="/news">News</Link>
+                        <Link to="/sona-website/news">News</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/sona-website/contact">Contact</Link>
                       </li>
                     </ul>
                   </nav>
